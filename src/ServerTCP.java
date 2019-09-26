@@ -24,7 +24,7 @@ public class ServerTCP {
 	            while(true)
 	            {
 	            	try {
-                    	while (x<4) {
+                    	while (x<25) {
                     		Socket socket = serverSocket.accept(); 
                     		clients.add(socket);		
                     		System.out.println("new CLient" + clients.size());
